@@ -1,4 +1,3 @@
-Here’s the updated version of your markdown file with the added MariaDB results:
 
 ---
 
@@ -74,22 +73,6 @@ sysbench \
     --time=60 \
     run
 ```
-
-### 7. Cleanup
-Clean up the database after testing.
-```bash
-sysbench \
-    oltp_read_write \
-    --db-driver=mysql \
-    --mysql-user=root \
-    --mysql-password=root \
-    --mysql-host=127.0.0.1 \
-    --mysql-port=3306 \
-    --mysql-db=sysbench_db \
-    cleanup
-```
-
----
 
 ## Results
 
