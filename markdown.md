@@ -112,6 +112,24 @@ sysbench \
 | Total Events        | 38740         |
 | Total Time          | 60.0150 s     |
 
+### Cassandra Results
+| Metric              | Value         |
+|---------------------|---------------|
+| Read Queries        | -             |
+| Write Queries       | -             |
+| Other Queries       | -             |
+| Total Queries       | -             |
+| Transactions/sec    | -             |
+| Queries/sec         | -             |
+| Latency (min)       | -             |
+| Latency (avg)       | -             |
+| Latency (95%)       | -             |
+| Latency (max)       | -             |
+| Ignored Errors/sec  | -             |
+| Total Transactions  | -             |
+| Total Events        | -             |
+| Total Time          | -             |
+
 ### CockroachDB Results
 | Metric              | Value         |
 |---------------------|---------------|
@@ -129,6 +147,24 @@ sysbench \
 | Total Transactions  | 617           |
 | Total Events        | 617           |
 | Total Time          | 60.7712 s     |
+
+### MongoDB Results
+| Metric              | Value         |
+|---------------------|---------------|
+| Read Queries        | 544502        |
+| Write Queries       | 155122        |
+| Other Queries       | 77633         |
+| Total Queries       | 777257        |
+| Transactions/sec    | 645.50        |
+| Queries/sec         | 12950.95      |
+| Latency (min)       | 8.20 ms       |
+| Latency (avg)       | 12.39 ms      |
+| Latency (95%)       | 14.46 ms      |
+| Latency (max)       | 142.48 ms     |
+| Ignored Errors/sec  | 2.55          |
+| Total Transactions  | 38740         |
+| Total Events        | 38740         |
+| Total Time          | 60.0150 s     |
 
 ### Comparison of Databases
 | Database       | Transactions/sec | Queries/sec | Latency (95%) |
