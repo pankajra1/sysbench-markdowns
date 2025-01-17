@@ -112,13 +112,31 @@ sysbench \
 | Total Events        | 38740         |
 | Total Time          | 60.0150 s     |
 
+### CockroachDB Results
+| Metric              | Value         |
+|---------------------|---------------|
+| Read Queries        | 48496         |
+| Write Queries       | 11619         |
+| Other Queries       | 5941          |
+| Total Queries       | 66056         |
+| Transactions/sec    | 10.5          |
+| Queries/sec         | 1086.92       |
+| Latency (min)       | 36.14 ms      |
+| Latency (avg)       | 784.79 ms     |
+| Latency (95%)       | 2320.55 ms    |
+| Latency (max)       | 6774.02 ms    |
+| Ignored Errors/sec  | 46.85         |
+| Total Transactions  | 617           |
+| Total Events        | 617           |
+| Total Time          | 60.7712 s     |
+
 ### Comparison of Databases
 | Database       | Transactions/sec | Queries/sec | Latency (95%) |
 |----------------|------------------|-------------|---------------|
 | MySQL          | 657.24          | 13191.83    | 13.70 ms      |
 | MariaDB        | 645.50          | 12950.95    | 14.46 ms      |
 | Cassandra      | 500             | 10000       | 20 ms         |
-| CockroachDB    | 520             | 10400       | 18 ms         |
+| CockroachDB    | 10.15           | 1,086.92    | 2,320.55 ms   |
 | MongoDB        | 800             | 16000       | 10 ms         |
 
 ---
