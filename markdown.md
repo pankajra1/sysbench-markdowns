@@ -150,3 +150,5 @@ Feel free to modify the tests to explore different configurations and scenarios.
 
 [mysql](image.png)
 ![mariadb](image-1.png)
+
+![CockroachDB](https://github.com/user-attachments/assets/c82aa76f-4d70-4953-9938-5c14d6a7930b)
